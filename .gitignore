@@ -10,8 +10,7 @@ models/
 *.zip
 *.tar.gz
 
-# Results and logs
-results/
+
 
 # Python cache
 __pycache__/
