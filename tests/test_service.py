@@ -2,7 +2,7 @@ import pytest
 from fastapi.testclient import TestClient
 import service.app as service_app
 
-client = TestClient(service_app.app)
+client = TestClient(service_app)
 
 # Test 1: Liveness probe check
 def test_healthz_endpoint():
