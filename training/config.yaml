@@ -1,0 +1,14 @@
+# Training Hyperparameters
+seed: 42
+learning_rate: 1.0e-4
+batch_size: 16
+epochs: 3
+max_seq_length: 64
+
+# Library Versions
+libraries:
+  python: "3.11"
+  torch: "2.2.0"
+  transformers: "4.38.0"
+  datasets: "2.18.0"
+  accelerate: "0.27.0"

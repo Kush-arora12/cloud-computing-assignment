@@ -1,0 +1,19 @@
+# Model files and weights
+models/
+*.pt
+*.pth
+*.bin
+*.h5
+*.weights
+
+# Archives and submission zips
+*.zip
+*.tar.gz
+
+# Results and logs
+results/
+
+# Python cache
+__pycache__/
+*.pyc
+.env
