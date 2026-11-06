@@ -25,3 +25,5 @@ up:
 
 down:
 	k3d cluster delete --config cluster/k3d.yaml
+test-teacher:
+	python tools/score.py results/teacher_predictions.jsonl data/validation.jsonl --out results/teacher_validation.json
