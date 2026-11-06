@@ -36,6 +36,9 @@ spec:
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
+          envFrom:
+            - secretRef:
+                name: s3-credentials
           env:
             - name: MODEL_URI
               value: "models/v1"
